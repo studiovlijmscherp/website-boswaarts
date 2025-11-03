@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Boswaarts - avontuur met aandacht</title>
+    <link>https://boswaarts.nl/tags/</link>
+    <description>Recent content in Tags on Boswaarts - avontuur met aandacht</description>
     <generator>Hugo</generator>
-    <language>enl-nl</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>nl-nl</language>
+    <lastBuildDate>Sat, 01 Nov 2025 16:58:42 +0100</lastBuildDate>
+    <atom:link href="https://boswaarts.nl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zweden</title>
+      <link>https://boswaarts.nl/tags/zweden/</link>
+      <pubDate>Sat, 01 Nov 2025 16:58:42 +0100</pubDate>
+      <guid>https://boswaarts.nl/tags/zweden/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

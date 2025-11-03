@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Boswaarts - avontuur met aandacht</title>
+    <link>https://boswaarts.nl/</link>
+    <description>Recent content on Boswaarts - avontuur met aandacht</description>
     <generator>Hugo</generator>
-    <language>enl-nl</language>
+    <language>nl-nl</language>
     <lastBuildDate>Sat, 01 Nov 2025 16:58:42 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://boswaarts.nl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://boswaarts.nl/posts/my-first-post/</link>
       <pubDate>Sat, 01 Nov 2025 16:58:42 +0100</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://boswaarts.nl/posts/my-first-post/</guid>
       <description>&lt;h3 id=&#34;titel-in-h3&#34;&gt;Titel in H3&amp;hellip;&lt;/h3&gt;&#xA;&lt;p&gt;Yolo! abc.. Deze kan ik hier ook editen?!&lt;/p&gt;</description>
     </item>
   </channel>
