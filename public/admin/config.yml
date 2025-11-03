@@ -1,0 +1,47 @@
+backend:
+  name: local
+  # als je `npx decap-server` draait, is dit het standaard endpoint
+  url: http://localhost:8081
+
+local_backend: true
+
+media_folder: "static/uploads"    # waar bestanden echt komen te staan
+public_folder: "/uploads"         # hoe ze in Hugo worden aangesproken
+
+publish_mode: editorial_workflow  # krijg 'Draft' / 'In review' / 'Published'
+
+site_url: "http://localhost:1313" # standaard Hugo serve-url
+
+collections:
+  - name: "posts"
+    label: "Berichten"
+    label_singular: "Bericht"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "posts/{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Publicatiedatum", name: "date", widget: "datetime" }
+      - { label: "Samenvatting", name: "summary", widget: "text", required: false }
+      - { label: "Auteur", name: "author", widget: "string", required: false }
+      - { label: "Uitgelichte afbeelding", name: "featured_image", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pagina's"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    filter:
+      field: "type"
+      value: "page"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Type", name: "type", widget: "hidden", default: "page" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+# optioneel: voor Hugo shortcodes of extra velden kun je widgets toevoegen
