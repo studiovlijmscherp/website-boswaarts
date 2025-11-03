@@ -1,4 +1,4 @@
-baseURL = 'https://boswaarts.nl/'
+baseURL = 'https://studiovlijmscherp.github.io/website-boswaarts/public/'
 languageCode = 'nl-nl'
 title = 'Boswaarts - avontuur met aandacht'
 theme = 'ananke'

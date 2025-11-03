@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Boswaarts - avontuur met aandacht</title>
-    <link>https://boswaarts.nl/categories/</link>
+    <link>https://studiovlijmscherp.github.io/website-boswaarts/public/categories/</link>
     <description>Recent content in Categories on Boswaarts - avontuur met aandacht</description>
     <generator>Hugo</generator>
     <language>nl-nl</language>
-    <atom:link href="https://boswaarts.nl/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://studiovlijmscherp.github.io/website-boswaarts/public/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
